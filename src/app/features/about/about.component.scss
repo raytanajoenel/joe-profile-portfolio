@@ -1,0 +1,8 @@
+.wrap { padding: 1.25rem; }
+.top { display:flex; gap: 1rem; align-items:center; }
+.avatar { width: 84px; height: 84px; border-radius: 999px; border: 1px solid var(--border); }
+.muted { color: var(--muted); margin: .2rem 0 0; }
+.summary { color: var(--muted); line-height: 1.7; margin-top: 1rem; }
+.group { padding: 1.1rem; }
+.group h4 { margin: 0 0 .75rem; }
+.chips { display:flex; flex-wrap:wrap; gap: .5rem; }

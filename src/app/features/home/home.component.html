@@ -1,0 +1,55 @@
+@if (profile(); as p) {
+  <section class="hero card">
+    <div class="hero-left">
+      <div class="kicker">Hi, I'm</div>
+      <h1>{{ p.name }}</h1>
+      <p class="title">{{ p.title }}</p>
+      <p class="summary">{{ p.summary }}</p>
+
+      <div class="shortcut-btn">
+        <a class="btn" routerLink="/projects">View Projects</a>
+        <a class="btn" routerLink="/contact">Contact</a>
+      </div>
+
+      <div class="skills">
+        @for (s of topSkills(); track s) {
+          <app-chip [label]="s" />
+        }
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img class="avatar" [src]="p.photo" alt="Profile photo" />
+      <div class="meta">
+        <span class="pill">{{ p.location }}</span>
+      </div>
+    </div>
+  </section>
+
+  <app-section title="Quick Highlights" subtitle="At-a-glance experience" />
+  <div class="grid cols-4 highlights">
+    @for (h of highlights(); track h.label) {
+      <div class="card stat">
+        <div class="value">{{ h.value }}</div>
+        <div class="label">{{ h.label }}</div>
+      </div>
+    }
+  </div>
+
+  <div class="grid cols-2">
+    <div class="card teaser">
+      <app-section title="About" subtitle="Background + skills" />
+      <p>Explore my core strengths across Angular, full-stack development, and cloud deployments.</p>
+      <a class="btn" routerLink="/about">Go to About</a>
+    </div>
+    <div class="card teaser">
+      <app-section title="Experience" subtitle="Roles and projects" />
+      <p>See my professional journey across banking, HR portals, and employee experience apps.</p>
+      <a class="btn" routerLink="/experience">Go to Experience</a>
+    </div>
+  </div>
+} @else {
+  <div class="card loading">
+    <p>Loading portfolio data…</p>
+  </div>
+}

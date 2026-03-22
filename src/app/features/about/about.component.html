@@ -1,0 +1,31 @@
+<app-section title="About" subtitle="Professional summary" />
+
+@if (profile(); as p) {
+  <div class="card wrap">
+    <div class="top">
+      <img class="avatar" [src]="p.photo" alt="Profile photo" />
+      <div>
+        <h3>{{ p.name }}</h3>
+        <p class="muted">{{ p.title }} • {{ p.location }}</p>
+      </div>
+    </div>
+
+    <p class="summary">{{ p.summary }}</p>
+  </div>
+
+  <app-section title="Skills" subtitle="Grouped by focus" />
+  <div class="grid cols-2">
+    @for (g of groups(); track g.title) {
+      <div class="card group">
+        <h4>{{ g.title }}</h4>
+        <div class="chips">
+          @for (i of g.items; track i) {
+            <app-chip [label]="i" />
+          }
+        </div>
+      </div>
+    }
+  </div>
+} @else {
+  <div class="card wrap">Loading…</div>
+}

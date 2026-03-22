@@ -1,0 +1,7 @@
+.proj { padding: 1.25rem; }
+.top { display:flex; justify-content:space-between; align-items:flex-start; gap: 1rem; }
+h3 { margin: 0; }
+.desc { color: var(--muted); line-height: 1.65; margin: .75rem 0 1rem; }
+.chips { display:flex; flex-wrap:wrap; gap: .5rem; }
+.list { margin: .9rem 0 0; padding-left: 1.1rem; color: var(--muted); }
+.list li { margin: .4rem 0; }

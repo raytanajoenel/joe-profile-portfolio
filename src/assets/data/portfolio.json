@@ -1,0 +1,285 @@
+{
+  "profile": {
+    "name": "Joenel Raytana",
+    "title": "Full Stack Developer",
+    "summary": "Full-stack developer with 9 years of experience in Application Development. Strong front-end background with 6+ years of pure Angular development, plus full-stack experience with Angular + Node.js + SQL and cloud deployments.",
+    "location": "Manila, Philippines",
+    "photo": "assets/images/joe-profile.jpg",
+    "highlights": [
+      {
+        "label": "Total Experience",
+        "value": "9+ years"
+      },
+      {
+        "label": "Angular Experience",
+        "value": "6+ years"
+      },
+      {
+        "label": "Full-stack (Angular + Node.js)",
+        "value": "1 year"
+      },
+      {
+        "label": "Backend",
+        "value": "1 year (Spring Boot)"
+      }
+    ],
+    "links": {
+      "email": "raytanajoenel@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/joenel-raytana-433857113",
+      "github": "https://github.com/raytanajoenel?tab=repositories"
+    }
+  },
+  "skills": {
+    "frontend": [
+      "Angular",
+      "TypeScript",
+      "HTML",
+      "SCSS",
+      "LESS",
+      "RxJS"
+    ],
+    "backend": [
+      "Node.js",
+      "Java Spring Boot"
+    ],
+    "databases": [
+      "MS SQL",
+      "MySQL",
+      "PostgreSQL",
+      "Firebase",
+      "DynamoDB"
+    ],
+    "cloud": [
+      "AWS",
+      "GCP"
+    ],
+    "mobile": [
+      "Nuxt.js (Vue)",
+      "Ionic",
+      "AngularJS (ServiceNow Portal)",
+      "React"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Accenture",
+      "project": "ACN Aflac Reshoring",
+      "role": "Senior Software Developer",
+      "overview": "Performed backend development: creating APIs and batch processes.",
+      "technology": [
+        "Java Spring Boot",
+        "PostgreSQL"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Accenture",
+      "project": "ACN JH (Iyo Bank)",
+      "role": "Senior Software Developer",
+      "overview": "Performed front-end tasks: designing, developing, fixing bugs, coordinating with back-end developers, testing, and maintaining technical documentation.",
+      "technology": [
+        "Ionic 5",
+        "HTML",
+        "SCSS",
+        "Angular"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Accenture",
+      "project": "ACN ServiceNow (McDO)",
+      "role": "Senior Software Developer",
+      "overview": "Designed and developed front-end solutions for McDO HR web application using ServiceNow Portal. Collaborated with back-end developers and aligned portal workflows.",
+      "technology": [
+        "ServiceNow Portal",
+        "HTML",
+        "CSS",
+        "AngularJS"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Indra Philippines",
+      "project": "Admin Web Project",
+      "role": "Angular Lead Developer",
+      "overview": "Supported an electric company in optimizing and maintaining web applications for tracking and managing customer electric consumption. Led front-end development and optimization, hosted and integrated via GCP.",
+      "technology": [
+        "Angular 13",
+        "GCP",
+        "HTML",
+        "SCSS"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Fullspeed",
+      "project": "Fullspeed Mobile App Project",
+      "role": "Front-end Lead Developer",
+      "overview": "Developed and designed client mobile web applications focusing on chat and bulletin features. Led the front-end team and implemented mobile WebView development for seamless integration and performance.",
+      "technology": [
+        "Nuxt.js",
+        "Firebase",
+        "HTML",
+        "SCSS"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Accenture",
+      "project": "ACN Melco Resorts & Entertainment",
+      "role": "Senior Front-end Developer",
+      "overview": "Designed and developed Melco applications used by client administrators to manage activities. Collaborated with back-end developers, optimized performance, and ensured responsive cross-platform compatibility.",
+      "technology": [
+        "Angular 11",
+        "HTML",
+        "SCSS"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Accenture",
+      "project": "ACN CIO",
+      "role": "Full-stack Developer",
+      "overview": "Contributed to initiatives that enhance employee experience and streamline internal processes. Key projects: Onboarding Web App, Pesh (AngularJS \u2192 Angular 10 upgrade), and TCA Request Web App. Deployed apps/APIs on AWS for scalability and reliability.",
+      "technology": [
+        "Angular 10",
+        "Node.js",
+        "AWS",
+        "MS SQL",
+        "MySQL",
+        "HTML",
+        "SCSS"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Accenture",
+      "project": "ACN Sophos Group",
+      "role": "Angular Developer",
+      "overview": "Designed and developed the Sophos portal to support business operations. Built and maintained responsive and user-friendly interfaces, optimized performance, and ensured compatibility across devices and browsers.",
+      "technology": [
+        "Angular 9",
+        "HTML",
+        "SCSS"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Philus",
+      "project": "Bank and Admin Web Project",
+      "role": "Front-end Developer",
+      "overview": "Designed and developed the front-end of the Bank Admin Console for the Philus client. Ensured a seamless and intuitive user experience for administrators managing bank operations.",
+      "technology": [
+        "Angular 7",
+        "HTML",
+        "LESS"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "Yondu",
+      "project": "Survey App and Admin Web Project",
+      "role": "Front-end Developer",
+      "overview": "Developed and maintained web and mobile interfaces for the Admin Console and Reward System, ensuring high usability and performance. Collaborated with cross-functional teams for seamless integration and alignment with business objectives. Optimized for responsiveness and performance across devices and platforms.",
+      "technology": [
+        "Angular 5",
+        "Vanilla JavaScript",
+        "HTML",
+        "SCSS"
+      ],
+      "period": "\u2014"
+    },
+    {
+      "company": "AiMedia",
+      "project": "AiMedia Bank Web Project",
+      "role": "Front-end Developer",
+      "overview": "Designed and developed a user-friendly and responsive web application for managing bank admin tasks. Collaborated with back-end developer to ensure applications meet business requirements.",
+      "technology": [
+        "Angular 2",
+        "Angular 4",
+        "HTML",
+        "SCSS"
+      ],
+      "period": "\u2014"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Bank Admin Console",
+      "org": "AiMedia / Philus",
+      "description": "Admin portal for managing bank operations and administration tasks, built with responsive UI and collaboration with backend services.",
+      "tags": [
+        "Angular",
+        "SCSS/LESS",
+        "Responsive UI"
+      ],
+      "highlights": [
+        "Admin workflows",
+        "Performance + usability",
+        "Cross-team collaboration"
+      ]
+    },
+    {
+      "name": "Survey & Rewards Admin",
+      "org": "Yondu",
+      "description": "Admin console and reward system interfaces for web and mobile, optimized for multi-device responsiveness and performance.",
+      "tags": [
+        "Angular",
+        "Vanilla JS",
+        "SCSS"
+      ],
+      "highlights": [
+        "High usability",
+        "Cross-platform optimization",
+        "Seamless integration"
+      ]
+    },
+    {
+      "name": "Employee Experience Apps",
+      "org": "Accenture CIO",
+      "description": "Multiple apps improving internal employee experience including onboarding, self-service hub upgrade, and request processing workflows.",
+      "tags": [
+        "Angular",
+        "Node.js",
+        "AWS",
+        "MySQL"
+      ],
+      "highlights": [
+        "Modernization (AngularJS\u2192Angular)",
+        "AWS deployment",
+        "Process streamlining"
+      ]
+    },
+    {
+      "name": "Onboarding Task Tracker",
+      "org": "Accenture CIO",
+      "description": "Employee onboarding experience prototype with sections for tasks, progress, and reminders.",
+      "tags": [
+        "Angular",
+        "Node.js",
+        "AWS",
+        "MsSQL"
+      ],
+      "highlights": [
+        "Modernization (AngularJS\u2192Angular)",
+        "AWS deployment",
+        "Process streamlining"
+      ]
+    },
+    {
+      "name": "Mobile Web Chat UI",
+      "org": "Fullspeed Technologies",
+      "description": "Nuxt-style mobile web UI concept focusing on chat and bulletins.",
+      "tags": [
+        "Vue.js",
+        "Nuxt.js",
+        "Firebase"
+      ],
+      "highlights": [
+        "Modernization (AngularJS\u2192Angular)",
+        "AWS deployment",
+        "Process streamlining"
+      ]
+    }
+  ]
+}

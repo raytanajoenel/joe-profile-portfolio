@@ -1,0 +1,20 @@
+<app-section title="Contact" subtitle="Let's connect" />
+
+@if (links(); as l) {
+  <div class="grid cols-2">
+    <div class="card box">
+      <h3>Email</h3>
+      <a class="btn" [href]="'mailto:' + l.email">{{ l.email }}</a>
+    </div>
+
+    <div class="card box">
+      <h3>Profiles</h3>
+      <div class="links">
+        <a class="btn" [href]="l.linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn" [href]="l.github" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </div>
+} @else {
+  <div class="card box">Loading…</div>
+}

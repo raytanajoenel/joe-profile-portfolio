@@ -1,0 +1,25 @@
+<app-section title="Projects" subtitle="Selected highlights" />
+
+<div class="grid cols-2">
+  @for (p of projects(); track p.name) {
+    <article class="card proj">
+      <div class="top">
+        <h3>{{ p.name }}</h3>
+        <span class="pill">{{ p.org }}</span>
+      </div>
+      <p class="desc">{{ p.description }}</p>
+
+      <div class="chips">
+        @for (t of p.tags; track t) {
+          <app-chip [label]="t" />
+        }
+      </div>
+
+      <ul class="list">
+        @for (h of p.highlights; track h) {
+          <li>{{ h }}</li>
+        }
+      </ul>
+    </article>
+  }
+</div>

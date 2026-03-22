@@ -1,0 +1,20 @@
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" routerLink="/" (click)="close()">
+      <span class="dot"></span>
+      <span>JR Portfolio</span>
+    </a>
+
+    <button class="burger" type="button" (click)="toggle()" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="links" [class.open]="mobileOpen()">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="close()">Home</a>
+      <a routerLink="/about" routerLinkActive="active" (click)="close()">About</a>
+      <a routerLink="/experience" routerLinkActive="active" (click)="close()">Experience</a>
+      <a routerLink="/projects" routerLinkActive="active" (click)="close()">Projects</a>
+      <a routerLink="/contact" routerLinkActive="active" (click)="close()">Contact</a>
+    </nav>
+  </div>
+</header>

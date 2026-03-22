@@ -1,0 +1,23 @@
+<app-section title="Experience" subtitle="Companies, projects, and roles" />
+
+<div class="timeline">
+  @for (e of items(); track e.company + e.project) {
+    <article class="card item">
+      <div class="head">
+        <div>
+          <h3>{{ e.company }}</h3>
+          <p class="muted">{{ e.role }} • {{ e.project }}</p>
+        </div>
+        @if (e.period && e.period !== '—') {
+          <span class="pill">{{ e.period }}</span>
+        }
+      </div>
+      <p class="desc">{{ e.overview }}</p>
+      <div class="chips">
+        @for (t of e.technology; track t) {
+          <app-chip [label]="t" />
+        }
+      </div>
+    </article>
+  }
+</div>
