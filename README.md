@@ -1,9 +1,9 @@
-# Angular 20 Portfolio (Standalone + Lazy Loading)
+# Joene Raytana Portfolio (Standalone + Lazy Loading)
 
 A modern, standalone-first Angular portfolio with feature-based routing, lazy-loaded routes, and local JSON data.
 
 ## Tech Highlights
-- Angular 20 standalone app (no AppModule)
+- Joene Raytana standalone app (no AppModule)
 - Feature-based folder structure (`core / shared / features`)
 - Lazy-loaded routes via `loadChildren` / `loadComponent`
 - Router preloading enabled for smooth navigation
